@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    min-height: 100vh; /* Pastikan halaman selalu setinggi layar */
+    display: flex;
+    flex-direction: column; /* Atur tata letak secara vertikal */
+}
+
+.main {
+    display: flex; /* Mengubah .main menjadi flex container */
+    flex-direction: column; /* Menyusun elemen secara vertikal */
+    justify-content: center; /* Memusatkan secara vertikal */
+    align-items: center; /* Memusatkan secara horizontal */
+    padding: 2rem 1rem;
+    background-color: white;
+    width: 100%; /* Pastikan elemen mengambil lebar penuh */
+    box-sizing: border-box; /* Pastikan padding dihitung dalam total dimensi */
+    flex: 1;
+}
+
+.main select {
+    width: 50%;
+    margin: 10px 0px; /* Jarak antar elemen */
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.main button {
+    margin: 10px 0px; /* Jarak antar elemen */
+    font-size: 1rem;
+    padding: 0.7rem;
+}
+
+.main h3 {
+    margin: 20px 0px 40px 0px;
+}
+
+.content {
+    display: flex; /* Mengubah .main menjadi flex container */
+    flex-direction: column; /* Menyusun elemen secara vertikal */
+    justify-content: center; /* Memusatkan secara vertikal */
+    align-items: center; /* Memusatkan secara horizontal */
+    padding: 2rem 1rem;
+    background-color: white;
+    width: 100%; /* Pastikan elemen mengambil lebar penuh */
+    height: auto;
+    box-sizing: border-box; /* Pastikan padding dihitung dalam total dimensi */
+    flex: 1;
+}
+
+.content p {
+    width: 50%;
+}
+
+footer {
+    color: white; /* Warna teks putih */
+    text-align: center; /* Teks berada di tengah */
+    padding: 15px 0; /* Padding untuk membuat footer lebih besar */
+    width: 100%; /* Lebar penuh halaman */
+    position: relative; /* Tetapkan posisi footer relatif */
+    box-sizing: border-box; /* Hitung padding sebagai bagian dari dimensi */
+}
+
